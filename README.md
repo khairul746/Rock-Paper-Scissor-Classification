@@ -6,10 +6,18 @@ The game of Rock-Paper-Scissors is a simple hand gesture-based game where three 
 ## Data
 The dataset used in this project is from Dicoding DBS Foundation Coding Camp 2024: Machine Learning Developer.
 
-## Data Processing and Analysis
+## Steps
+- **Data Import** : Import the images data then convert image data to array and image label to numbers
+- **Processing** :  Resize images, normalize pixel values, and apply data augmentation techniques like rotation, flipping, and scaling.
+- **Define the Model** : Design a CNN architecture tailored for image classification, with layers such as convolutional, pooling, and fully connected layers.
+- **Model Training** : Train the model on the dataset using techniques like callback.
+- **Perfomance Evaluation** : Use metrics such as accuracy, confusion matrix, and F1-score to measure model performance.
 
-- **Data Loading and Processing**
+## Results
+- Models trained using convolutional neural networks achieved an accuracy of approximately 98.29%.
+- The trained model successfully identifies self-uploaded images with a green background.
 
-## Results and Evaluation
-
-- 
+## Future Scope
+- Extend the model to recognize additional gestures or combine it with other gesture-based games.
+- Enhance real-time performance by optimizing the model for mobile or edge devices.
+- Integrate gesture recognition into augmented reality (AR) or virtual reality (VR) applications.
